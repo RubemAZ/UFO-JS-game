@@ -1,0 +1,38 @@
+.mainBackground{
+	background-color: black;
+	background-image: url("/public/img/mainBackground.jpg");
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover cover;
+	max-width: 100%;
+	width: 100%;
+	height: 50rem;
+}
+#logo{
+	background-image: url("/public/img/intro.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100px;
+	background-position: center center;
+	padding-top: 18rem;
+}
+
+.actionPlayButton {
+	background-image: url("/public/img/play-hover-off.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+	padding-top: 18rem;
+}
+
+.actionPlayButton:hover {
+	background: url('/public/img/play-hover-on.gif') center center;
+	background-repeat: no-repeat;
+}
+
+.footer{
+	color: aqua;
+}
+

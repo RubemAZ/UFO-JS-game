@@ -13,7 +13,7 @@ rocketLaunchInterval,rocketsTotal;
 let shockExplosion,shockSound;
 
 
-function keyDowN(event){
+const keyDowN = (event) =>{
 	let key=event.keyCode;
 	if(key==38){//move up
 		playerDirectionY=-1;
@@ -30,7 +30,7 @@ function keyDowN(event){
 	}
 }
 
-function keyUP(event){
+const keyUP = (event) =>{
 	let key=event.keyCode;
 	if((key==38)||(key==40)){
 		playerDirectionY=0;
@@ -40,7 +40,7 @@ function keyUP(event){
 	}
 }
 
-function rocketLauncher(){
+const rocketLauncher = () =>{
 	if(playerOnOff){
 		let y=0;
 		let x=Math.random()*screenW;
@@ -56,7 +56,7 @@ function rocketLauncher(){
 	}
 }
 
-function rocketControls(){
+const rocketControls = () =>{
 	rocketsTotal=document.getElementsByClassName("rocket");
 	let rocketsTotalArray=rocketsTotal.length;
 	for(let index = 0; index < rocketsTotalArray; index++){
@@ -73,7 +73,7 @@ function rocketControls(){
 	}
 }
 
-function lightningLauncher(x,y){
+const lightningLauncher = (x,y) =>{
 	let t=document.createElement("div");
 	let attributeClass=document.createAttribute("class");
 	let attributeStyle=document.createAttribute("style");
@@ -84,7 +84,7 @@ function lightningLauncher(x,y){
 	document.body.appendChild(t);
 }
 
-function lightningShotsController(){
+const lightningShotsController = () =>{
 	let lightningShots=document.getElementsByClassName("playersLightningShot");
 	let rocketsTotalArray=lightningShots.length;
 	for(let index = 0; index < rocketsTotalArray; index++){
@@ -101,7 +101,7 @@ function lightningShotsController(){
 	}
 }
 
-function rocketLightningShotShock(lightShot){
+const rocketLightningShotShock = (lightShot) =>{
 	let rocketsTotalArray=rocketsTotal.length;
 	for(let index = 0; index < rocketsTotalArray; index++){
 		if(rocketsTotal[index]){
@@ -124,7 +124,7 @@ function rocketLightningShotShock(lightShot){
 	}
 }
 
-function shockMaker(tipo,x,y){ //Tipo 1=AR, 2=TERRA
+const shockMaker =(tipo,x,y) =>{ //Tipo 1=AR, 2=TERRA
 	if(document.getElementById("explosion"+(shockExplosion-4))){
 		document.getElementById("explosion"+(shockExplosion-4)).remove();
 	}
@@ -167,14 +167,14 @@ function shockMaker(tipo,x,y){ //Tipo 1=AR, 2=TERRA
 	shockSound++;
 }
 
-function playerController(){
+const playerController = () =>{
 	playerInitialPositionY+=playerDirectionY*playerSpeed;
 	playerInitialPositionX+=playerDirectionX*playerSpeed;
 	player.style.top=playerInitialPositionY+"px";
 	player.style.left=playerInitialPositionX+"px";
 }
 
-function gameManager(){
+const gameManager = () =>{
 	ForceFieldBar.style.width=ForceFieldLife+"px";
 	if(rocketCounter <= 0){
 		playerOnOff=false;
@@ -211,7 +211,7 @@ function gameManager(){
 	}
 }
 
-function gameLoop(){
+const gameLoop = () =>{
 	if(playerOnOff){
 		//FUNÇÕES DE CONTROLE
 		playerController();
@@ -222,7 +222,7 @@ function gameLoop(){
 	frames=requestAnimationFrame(gameLoop);
 }
 
-function restart(){
+const restart = () =>{
 	rocketsTotal=document.getElementsByClassName("rocket");
 	let rocketsTotalArray=rocketsTotal.length;
 	for(let index = 0; index < rocketsTotalArray; index++){
@@ -245,7 +245,7 @@ function restart(){
 	gameLoop();
 }
 
-function start(){
+const start = () =>{
 	playerOnOff=false;
 
 	//Ini Tela

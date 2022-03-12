@@ -1,7 +1,7 @@
 body{
 	overflow-x: hidden;
 	overflow-y: hidden;
-	background-image: url("/public/img/mainBackground.jpg");
+	background-image: url("../img/mainBackground.jpg");
 	background-repeat: no-repeat;
     background-position: cover;
     background-size: cover;
@@ -11,7 +11,7 @@ body{
 .navJog{
 	width:80px;
 	height: 60px;
-	background-image: url("/public/img/ufo.gif");
+	background-image: url("../img/ufo.gif");
 	position: absolute;
 	opacity: 0.7;
 	z-index: 9999;
@@ -35,7 +35,7 @@ body{
 .playersLightningShot{
 	width: 60px;
     height: 90px;
-    background-image: url("/public/img/light.gif");
+    background-image: url("../img/light.gif");
     border-radius: 9 px;
     position: absolute;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body{
 .rocket{
 	width:40px;
 	height:110px;
-	background-image:URL("/public/img/rocket.gif");
+	background-image:URL("../img/rocket.gif");
 	position:absolute;
 }
 .topShock{

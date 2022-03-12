@@ -1,6 +1,6 @@
 .mainBackground{
 	background-color: black;
-	background-image: url("/public/img/mainBackground.jpg");
+	background-image: url("../img/mainBackground.jpg");
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 	height: 50rem;
 }
 #logo{
-	background-image: url("/public/img/intro.png");
+	background-image: url("../img/intro.png");
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100px;
@@ -20,7 +20,7 @@
 }
 
 .actionPlayButton {
-	background-image: url("/public/img/play-hover-off.png");
+	background-image: url("../img/play-hover-off.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	cursor: pointer;
@@ -28,7 +28,7 @@
 }
 
 .actionPlayButton:hover {
-	background: url('/public/img/play-hover-on.gif') center center;
+	background: url('../img/play-hover-on.gif') center center;
 	background-repeat: no-repeat;
 }
 

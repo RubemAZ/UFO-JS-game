@@ -1,5 +1,5 @@
 .historyText{
-	background-image: url("/public/img/mainBackground.jpg");
+	background-image: url("../img/mainBackground.jpg");
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background-repeat: no-repeat;
@@ -16,20 +16,20 @@
 }
 
 .commands{
-    background-image: url("/public/img/commands.png");
+    background-image: url("../img/commands.png");
     background-repeat: no-repeat;
 	background-position: center center;
     background-size:auto;
 }
 
 .clickToPlayButton{
-    background-image: url("/public/img/click-to-play.png");
+    background-image: url("../img/click-to-play.png");
     background-repeat: no-repeat;
 	background-position: center center;
     padding: 15rem;
 }
 
 .clickToPlayButton:hover{
-    background-image: url("/public/img/click-to-play-hover.gif");
+    background-image: url("../img/click-to-play-hover.gif");
 
 }

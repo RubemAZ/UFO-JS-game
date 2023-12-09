@@ -10,4 +10,4 @@
 - Open the folder 'gameUfo';
 - open index.html in your browser and have a nice play
 
-# Developed and designed by Rubem Azevedo
+# Developed by Rubem Azevedo

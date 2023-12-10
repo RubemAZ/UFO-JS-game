@@ -262,7 +262,7 @@ const start = () =>{
 	player.style.left=playerInitialPositionX+"px";
 
 	//Controles das rockets
-	rocketCounter=10;
+	rocketCounter=60;
 	rocketSpeed=3;
 	
 	//Controles do planeta

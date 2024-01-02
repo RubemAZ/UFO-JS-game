@@ -2,7 +2,7 @@
 
 # U.F.O Combat JS game
 ## informations of you need before start:
-- This software was designed using HTML5, CSS3, and simple procedural programming in basic Javascript;
+- This software was designed using HTML5, CSS3, and simple procedural programming in Javascript;
 
 ## How to play?
 - Open the terminal shell;

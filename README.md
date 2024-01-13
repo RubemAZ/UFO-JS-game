@@ -1,8 +1,6 @@
 ![intro](https://github.com/RubemAZ/UFO-JS-game/assets/87815929/5d544604-341a-41e8-b8e8-db3b4023fdf9)
 
-# U.F.O Combat JS game
-## informations of you need before start:
-- This software was designed using HTML5, CSS3, and simple procedural programming in Javascript;
+# U.F.O Combat JS Game 
 
 ## How to play?
 - Open the terminal shell;

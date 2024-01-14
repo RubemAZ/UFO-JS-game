@@ -94,7 +94,6 @@ const lightningShotsController = () =>{
 			lightningShots[index].style.top=lightningPosition+"px";
 			rocketLightningShotShock(lightningShots[index]);
 			if(lightningPosition>900){
-				//document.body.removeChild(lightningShots[index]);
 				lightningShots[index].remove();
 			}
 		}
@@ -113,7 +112,7 @@ const rocketLightningShotShock = (lightShot) =>{
 				&&
 				(
 					(lightShot.offsetLeft<=(rocketsTotal[index].offsetLeft+40))&& //Esquerda lightShot com direita rocket
-					((lightShot.offsetLeft+40)>=(rocketsTotal[index].offsetLeft)) //Direita Tito  com esquerda Bomba
+					((lightShot.offsetLeft+40)>=(rocketsTotal[index].offsetLeft)) //Direita lightShot  com esquerda rocket
 				)
 			){
 				shockMaker(1,rocketsTotal[index].offsetLeft-25,rocketsTotal[index].offsetTop);
@@ -192,13 +191,6 @@ const gameManager = () =>{
 
 		window.clearInterval(interval)
 		screenMessage.style.backgroundImage=null;
-
-		
-
-		// screenMessage.style.backgroundImage="url('victory.png')";
-		// screenMessage.style.color = 'red';
-		// screenMessage.style.backgroundPosition = 'center center';
-		//screenMessage.innerHTML = 'VOCÊ GANHOU';
 
 	}
 	if(ForceFieldLife<=0){

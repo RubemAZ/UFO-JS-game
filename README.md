@@ -1,6 +1,7 @@
 ![intro](https://github.com/RubemAZ/UFO-JS-game/assets/87815929/5d544604-341a-41e8-b8e8-db3b4023fdf9)
 
 # U.F.O Combat JS Game 
+ A functional JS script
 
 ## How to play?
 - Open the terminal shell;

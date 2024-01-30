@@ -7,5 +7,3 @@
 - Enter the command 'git clone https://github.com/RubemAZ/UFO-Combat-JS-game.git';
 - Open the folder 'gameUfo';
 - open index.html in your browser and have a nice play
-
-# Developed by Rubem Azevedo

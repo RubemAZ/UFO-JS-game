@@ -1,0 +1,67 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-image: url("../img/mainBackground.jpg");
+	background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+.navJog{
+	width:80px;
+	height: 60px;
+	background-image: url("../img/ufo.gif");
+	position: absolute;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.screenMessage{
+	position: absolute;
+	height: 621px;
+	display: none;
+}
+#medidorPlaneta{
+	width:100%;
+	height:20px;
+	background-color: rgb(0, 0, 0);
+	border-radius: 6px;
+}
+#ForceFieldBar{
+    height: 20px;
+	width: 100%;
+
+}
+.playersLightningShot{
+	width: 60px;
+    height: 90px;
+    background-image: url("../img/light.gif");
+    border-radius: 9 px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.rocket{
+	width:40px;
+	height:110px;
+	background-image:URL("../img/rocket.gif");
+	position:absolute;
+}
+.topShock{
+	width:55px;
+	height:57px;
+	position:absolute;
+}
+.lightningRocketShock{
+	width:70px;
+	height:70px;
+	position:absolute;
+}
+.screenMessage{
+	position: absolute;
+ 	background-repeat: no-repeat;
+}
+.buttonStart{
+	width: auto;
+}

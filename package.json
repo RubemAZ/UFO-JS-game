@@ -15,14 +15,25 @@
   },
 
   "author": "Rubem Azevedo",
-  "license": "ISC",
+  "name": "gameufo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubemAZ/gameUfo.git"
+  },
+  "author": "Rubem Azevedo",
+  "license": "Public",
   "bugs": {
     "url": "https://github.com/RubemAZ/gameUfo/issues"
   },
 
   "homepage": "https://github.com/RubemAZ/gameUfo#readme",
   
-
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
